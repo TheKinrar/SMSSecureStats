@@ -1,0 +1,9 @@
+{
+	"name": "smssecurebackupparser",
+	"version": "1.0.0",
+	"dependencies": {
+		"xml2js": "latest",
+		"jsonfile": "latest",
+		"readline-sync": "latest"
+	}
+}

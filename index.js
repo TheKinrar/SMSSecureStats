@@ -1,5 +1,3 @@
-// Coucou toi <3
-
 var xml2js = require('xml2js');
 var fs = require('fs');
 var readline = require('readline-sync');
@@ -76,7 +74,6 @@ if(process.argv.length == 3) {
 			        console.log("\n#" + (i + 1) + " - " + addressesJson[address.address].name + ": " + address.total + " messages");
 			        	console.log(address.sended + " sended (" + address.psended + "%), " + address.received + " received (" + address.preceived + "%)");
 		    	}
-		    	console.log("\n\nStatistics by TheKinrar, for monsieurtino <3");
 		    });
 		});
 	});

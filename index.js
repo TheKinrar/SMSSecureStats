@@ -72,7 +72,7 @@ if(process.argv.length == 3) {
 		        	var address = sorted_addresses[i];
 		        	
 			        console.log("\n#" + (i + 1) + " - " + addressesJson[address.address].name + ": " + address.total + " messages");
-			        	console.log(address.sended + " sended (" + address.psended + "%), " + address.received + " received (" + address.preceived + "%)");
+			        	console.log(address.sended + " sent (" + address.psended + "%), " + address.received + " received (" + address.preceived + "%)");
 		    	}
 		    });
 		});
